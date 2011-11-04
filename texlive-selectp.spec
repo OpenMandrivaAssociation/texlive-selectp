@@ -47,6 +47,7 @@ was inspired by code published by Knuth in TUGboat 8(2) (July
 %{_texmfdistdir}/tex/latex/selectp/selectp.sty
 %doc %{_texmfdistdir}/doc/latex/selectp/selectp-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/selectp/selectp-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +58,5 @@ was inspired by code published by Knuth in TUGboat 8(2) (July
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
