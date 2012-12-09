@@ -48,3 +48,17 @@ was inspired by code published by Knuth in TUGboat 8(2) (July
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
++ Revision: 755903
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 719501
+- texlive-selectp
+- texlive-selectp
+- texlive-selectp
+- texlive-selectp
+
