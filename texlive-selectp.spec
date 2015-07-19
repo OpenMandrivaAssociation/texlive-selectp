@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-selectp
 Version:	1.0
-Release:	9
+Release:	10
 Summary:	Select pages to be output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/selectp
