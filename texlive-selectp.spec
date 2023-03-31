@@ -1,6 +1,6 @@
 Name:		texlive-selectp
 Version:	20185
-Release:	1
+Release:	2
 Summary:	Select pages to be output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/selectp
