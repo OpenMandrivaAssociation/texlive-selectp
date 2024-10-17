@@ -3,7 +3,7 @@ Version:	20185
 Release:	2
 Summary:	Select pages to be output
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/selectp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/selectp
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/selectp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/selectp.doc.r%{version}.tar.xz
